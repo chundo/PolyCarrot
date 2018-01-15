@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+Devise User 
+rails g migracion AddNameToUser name provider iud
+rails g model Token expires_at:datetime user:references token
